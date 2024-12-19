@@ -6,7 +6,7 @@ import Detective from './detective';
 function App() {
   return (
     <div>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route index element = {<Home/>} />
             <Route path="/home" element = {<Home/>} />
@@ -14,7 +14,7 @@ function App() {
             <Route path="/contact" element = {<Contact/>} />
             <Route path="/detect" element = {<Detective/>} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
     </div>
   );
 }
