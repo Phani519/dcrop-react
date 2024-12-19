@@ -1,0 +1,8 @@
+.card-content {
+    display: none;
+    color: #333;
+}
+
+.card:hover .card-content {
+    display: block;
+}
